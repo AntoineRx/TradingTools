@@ -1,0 +1,70 @@
+{
+    "candlesticks":
+      {
+         "bullish":
+         {
+             "increasing_line_color": "#2ebd85",
+             "decreasing_line_color": "#2ebd85",
+             "increasing_fillcolor": "#2ebd85",
+             "decreasing_fillcolor": "#2ebd85"
+         },
+         "neutral":
+         {
+             "increasing_line_color": "#2ebd85",
+             "decreasing_line_color": "#e0294a",
+             "increasing_fillcolor": "#e0294a",
+             "decreasing_fillcolor": "#2ebd85"
+         },
+         "bearish":
+         {
+             "increasing_line_color": "#e0294a",
+             "decreasing_line_color": "#e0294a",
+             "increasing_fillcolor": "#e0294a",
+             "decreasing_fillcolor": "#e0294a"
+         }
+      },
+
+    "traces":
+            [
+                {
+                  "name": "EMA(55)",
+                  "data": "EMA_55",
+                  "color": "rgba(234, 234, 52, 1)"
+                },
+                {
+                  "name": "EMA(99)",
+                  "data": "EMA_99",
+                  "color": "rgba(234, 128, 52, 1)"
+                },
+                {
+                  "name": "EMA(222)",
+                  "data": "EMA_222",
+                  "color": "rgba(234, 52, 52, 1)"
+                },
+                {
+                  "name": "Tenkan",
+                  "data": "Tenkan",
+                  "color": "rgba(51, 196, 225, 1)"
+                },
+                {
+                  "name": "Kijun",
+                  "data": "Kijun",
+                  "color": "rgba(138, 51, 225, 1)"
+                },
+                {
+                  "name": "Senkou A",
+                  "data": "Senkou_A",
+                  "color": "rgba(91, 225, 51, 1)"
+                },
+                {
+                  "name": "Senkou B",
+                  "data": "Senkou_B",
+                  "color": "rgba(225, 51, 51, 1)"
+                },
+                {
+                  "name": "Chikou",
+                  "data": "Chikou",
+                  "color": "rgba(234, 234, 52, 1)"
+                }
+            ]
+}

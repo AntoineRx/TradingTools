@@ -1,0 +1,20 @@
+# Trading Tools (Work In Progress)
+
+## Realtime Crypto Trading View
+
+1. Fetch data in realtime using data.py
+- Fetch OHLC data from Binance Futures and update it in realtime.
+- Save all data to data/data.csv
+
+2. Compute strategy & indicators using strategy.py
+- Listen for changes in data/data.csv file.
+- Apply strategy to given data each time the data file is updated
+- Generate strategy.csv file containing result
+
+3. Plot price & indicators using dashboard.py
+- Plot chart and indicators 
+
+
+--- How to use --
+Run data.py, strategy.py and dashboard.py simultaneously.
+Click on the given link from dashboard.py to access the chart.
